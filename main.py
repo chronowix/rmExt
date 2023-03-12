@@ -10,8 +10,8 @@ def rm_files(directory, exts):
                     os.remove(os.path.join(root, file))
 
 
-dl_path = "C:/Users/Amélia/Downloads/"
-extensions = [".exe", ".zip", ".7z", ".rar"]
-os.startfile(dl_path)
+path = "C:/Users/user_name/Downloads/"
+extensions = [".exe", ".zip", ".7z", ".rar"] # types of files you want to delete
+os.startfile(path)
 time.sleep(5)
-rm_files(dl_path, extensions)
+rm_files(path, extensions)

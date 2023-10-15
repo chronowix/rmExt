@@ -11,7 +11,8 @@ def rm_files(directory, exts):
 
 
 path = "C:/Users/user_name/Downloads/"
-extensions = [".exe", ".zip", ".7z", ".rar"] # types of files you want to delete
+extensions = [".exe", ".zip", ".7z", ".rar", ".msi"] # types of files you want to delete
 os.startfile(path)
-time.sleep(5)
+time.sleep(2)
 rm_files(path, extensions)
+
